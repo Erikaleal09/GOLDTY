@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('../IMG/fondo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* HEADER */
+.header {
+    background-color: #fbb034;
+    height: 60px;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    padding: 0 16px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    color: white;
+    font-weight: 600;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+}
+
+.header h1 {
+    font-size: 22px;
+    margin: 0;
+    justify-self: center;
+}
+
+.logo img {
+    width: 80px;
+    height: 50px;
+    object-fit: contain;
+    border-radius: 80%;
+    padding: 10px;
+}
+
+.back-btn {
+    background: transparent;
+    border: none;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back-btn:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+}
+
+/* PERFIL CARD */
+.perfil-container {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+    width: 360px;
+    text-align: center;
+    margin-top: 90px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+}
+
+/* TITULO */
+.titulo {
+    color: #fbb034;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+/* DATOS */
+.datos-perfil {
+    text-align: left;
+}
+
+.datos-perfil p {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.95rem;
+    margin: 10px 0;
+}
+
+.datos-perfil span {
+    font-size: 18px;
+}
+
+.datos-perfil strong {
+    color: #000000; 
+    font-weight: 600;
+}
+
+/* BOTONES */
+.acciones {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btn-editar {
+    padding: 12px;
+    border-radius: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
+    background: #85AA70;
+    text-align: center;
+}
+
+.btn-editar:hover {
+    background: #6f945a;
+}
+
+.btn-secundario {
+    padding: 10px;
+    border-radius: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #85AA70;
+    border: 2px solid #85AA70;
+    text-align: center;
+}
+
+.btn-secundario:hover {
+    background: #85AA70;
+    color: white;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .perfil-container {
+        width: 95%;
+        padding: 30px;
+    }
+}
