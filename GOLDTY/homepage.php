@@ -5,9 +5,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Your Workspace on GOLDTY</title>
-  <link rel="stylesheet" href="style/homepage.css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Tu espacio de trabajo en GOLDTY</title>
+<link rel="stylesheet" href="style/homepage.css" />
 
 <script src="https://kit.fontawesome.com/afa4b36741.js" crossorigin="anonymous"></script>
 </head>
