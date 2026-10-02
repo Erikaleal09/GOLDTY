@@ -8,7 +8,7 @@ ini_set('display_errors', 1);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Iniciar sesión</title>
     <link rel="stylesheet" href="style/login.css">
 </head>
 <body>
@@ -46,7 +46,7 @@ ini_set('display_errors', 1);
         <h3>Iniciar sesión</h3><br>
 
         <div class="input-wrapper">
-            <label>Email</label>
+            <label>Correo Electronico</label>
             <input type="email" name="email" placeholder="Email" required>
         </div>
 
