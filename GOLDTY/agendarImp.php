@@ -74,7 +74,7 @@
         </div>
 
         <button type="submit" class="btn" name="agendar">
-            Agendar
+            Agendar actividad
         </button>
 
     </form>
