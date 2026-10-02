@@ -140,11 +140,11 @@ body {
 }
 
 .extra-info h2 {
-  margin-top: 25px;
-  margin-bottom: 10px;
-  font-size: 20px;
-  font-weight: bold;
-  color: #333;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
 }
 
 .extra-info p {
