@@ -9,7 +9,7 @@
 <body>
     <div class="welcome-container">
         <h1 class="typewriter">¡Bienvenido a <span class="goldty">GOLDTY</span>!</h1>
-        <p>Prioriza y organiza tus tareas, alcanza tus metas y lleva tu productividad al siguiente nivel.</p>
+       <p>Organiza tu tiempo, alcanza tus metas y haz que cada minuto cuente.</p>
         <div class="welcome-buttons">
             <a href="homepage.php" class="btn-welcome">Siguiente</a>
         </div>
